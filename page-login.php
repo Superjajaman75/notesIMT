@@ -13,7 +13,6 @@ if (isset($_POST['login']) AND isset($_POST['passwd'])) {
 }
 ?>
 
-
 <!doctype html>
 <html class="no-js" lang="fr">
 <head>
@@ -23,7 +22,6 @@ if (isset($_POST['login']) AND isset($_POST['passwd'])) {
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
@@ -31,14 +29,9 @@ if (isset($_POST['login']) AND isset($_POST['passwd'])) {
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-
-
-
 </head>
 
 <body class="bg-dark">
-
-
     <div class="sufee-login d-flex align-content-center flex-wrap">
         <div class="container">
             <div class="login-content">
@@ -58,22 +51,14 @@ if (isset($_POST['login']) AND isset($_POST['passwd'])) {
 						<button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Se connecter</button>
                     </form>
                 </div>
-				<br>
-				<br>
-
-                <p class="text-center">Aucune conservation des données n'est faite.</p>
-
             </div>
+			<p class="text-center">Aucune conservation des donn&eacute;es n'est faite.</p>
+			<div style="margin: 0 auto; width: 100px;">
+				<a href="https://github.com/Superjajaman75/notesIMT" target="_blank" class="btn btn-sm social github" style="margin:auto;">
+					<i class="fa fa-github"></i><span>Github</span>
+				</a>
+			</div>
         </div>
     </div>
-
-
-	<!--<script src="vendors/jquery/dist/jquery.min.js"></script>
-    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
-    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>-->
-
-
 </body>
 </html>
-
