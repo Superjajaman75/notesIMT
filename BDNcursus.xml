@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xsi:schemaLocation="BDNcursus https://sifi-report.imtbs-tsp.eu/ReportServer?%2FSIFI_PROD%2FRapports_ecole%2Fcommun%2FBDNcursus&amp;rs%3ACommand=Render&amp;rs%3AFormat=XML&amp;rc%3ASchema=True" Name="BDNcursus" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="BDNcursus">
+    <list1>
+        <list1_Details_Group_Collection>
+            <list1_Details_Group X_Ecole="Télécom SudParis" textbox12="Evry, le 28/02/2019" X_AnnSco="2017/2018" textbox10="Monsieur BONHOMME Benjamin" niveau_LMD="Niveau européen " lib_classe="Formation Ingénieur par l'Apprentissage, spécialité réseaux 1ère Année" X_CodeINE=" " textbox19=" " textbox9="XXX" textbox17=" " Textbox1="">
+                <table2 Textbox6="Relevé provisoire " textbox37="Heures" textbox18="Coeff" textbox51="Grade ECTS" textbox60="Note US" textbox21="60" textbox29="Moyenne de l'étudiant (/20) :" textbox33="14.45">
+                    <Detail_Collection>
+                        <Detail textbox38="ENG 8110" textbox40="   Langues " textbox41="59" textbox46="" textbox22="" textbox52="17.50" textbox2="" />
+                        <Detail textbox38="EXT 8111" textbox40="   Anglais " textbox41="59" textbox46="3" textbox22="3" textbox52="17.50" textbox2="A+" />
+                        <Detail textbox38="MGT 8130" textbox40="   Connaissance de l'entreprise " textbox41="98" textbox46="" textbox22="" textbox52="14.38" textbox2="" />
+                        <Detail textbox38="IMT 8132" textbox40="   Economie générale et microéconomie de l'entreprise " textbox41="21" textbox46="1" textbox22="1" textbox52="15.50" textbox2="A" />
+                        <Detail textbox38="IMT 8133" textbox40="   Stratégie de développement de l'entreprise " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="20.00" textbox2="A+" />
+                        <Detail textbox38="IMT 8134" textbox40="   Droit de l'informatique et des nouvelles technologies " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="13.00" textbox2="B+" />
+                        <Detail textbox38="IMT 8136" textbox40="   Droit du travail et droit social " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="9.00" textbox2="F" />
+                        <Detail textbox38="IMT 8137" textbox40="   Evolution du management des RH et de l'organisation " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="12.00" textbox2="B" />
+                        <Detail textbox38="IMT 8138" textbox40="   Management de projet  " textbox41="21" textbox46="1" textbox22="1" textbox52="15.00" textbox2="A" />
+                        <Detail textbox38="PPI 8120" textbox40="   Développement personnel " textbox41="49" textbox46="" textbox22="" textbox52="14.63" textbox2="" />
+                        <Detail textbox38="IMT 8121" textbox40="   Présentation du cursus en apprentissage " textbox41="7" textbox22="0" textbox52="Validé" textbox2="A" />
+                        <Detail textbox38="IMT 8122" textbox40="   Expression écrite et orale " textbox41="28" textbox46="1.5" textbox22="1.5" textbox52="14.50" textbox2="A-" />
+                        <Detail textbox38="IMT 8124" textbox40="   La relation humaine dans l'entreprise " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="15.00" textbox2="A" />
+                        <Detail textbox38="IMT 8126" textbox40="   Semaine d'intégration  " textbox41="35" textbox46="0.5" textbox22="0.5" textbox52="Validé" textbox2="" />
+                        <Detail textbox38="PRO 8125" textbox40="   Projet personnel et portfolio " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="Validé" textbox2="" />
+                        <Detail textbox38="CSC 8140" textbox40="   Informatique " textbox41="161" textbox46="" textbox22="" textbox52="15.86" textbox2="" />
+                        <Detail textbox38="IMT 8142" textbox40="   Algorithmique et programmation " textbox41="42" textbox46="3" textbox22="3" textbox52="17.50" textbox2="A+" />
+                        <Detail textbox38="IMT 8143" textbox40="   Base de données relationnelles " textbox41="35" textbox46="2" textbox22="2" textbox52="16.00" textbox2="A+" />
+                        <Detail textbox38="IMT 8146" textbox40="   Programmation orientée objet " textbox41="42" textbox46="3" textbox22="3" textbox52="17.50" textbox2="A+" />
+                        <Detail textbox38="IMT 8147" textbox40="   Système d'exploitation Unix " textbox41="42" textbox46="3" textbox22="3" textbox52="12.50" textbox2="B" />
+                        <Detail textbox38="MAT 8150" textbox40="   Mathématiques de l'ingénieur " textbox41="140" textbox46="" textbox22="" textbox52="10.63" textbox2="" />
+                        <Detail textbox38="MAT 8151 " textbox40="   Analyse " textbox41="35" textbox46="2" textbox22="2" textbox52="7.50" textbox2="F" />
+                        <Detail textbox38="MAT 8152" textbox40="   Algèbre " textbox41="35" textbox46="2" textbox22="2" textbox52="8.50" textbox2="F" />
+                        <Detail textbox38="MAT 8153" textbox40="   Probabilités et statistiques " textbox41="35" textbox46="2" textbox22="2" textbox52="17.00" textbox2="A+" />
+                        <Detail textbox38="MAT 8156" textbox40="   Recherche opérationnelle " textbox41="35" textbox46="2" textbox22="2" textbox52="9.50" textbox2="F" />
+                        <Detail textbox38="NET 8160" textbox40="   Réseaux et Services " textbox41="119" textbox46="" textbox22="" textbox52="13.70" textbox2="" />
+                        <Detail textbox38=" IUYF PHY 8161" textbox40="   Théorie du signal et des communications " textbox41="21" textbox46="2" textbox22="2" textbox52="9.50" textbox2="F" />
+                        <Detail textbox38="NET 8162" textbox40="   Réseaux : infrastructures et ingénierie " textbox41="49" textbox46="4" textbox22="4" textbox52="16.00" textbox2="A+" />
+                        <Detail textbox38="NET 8163" textbox40="   Réseaux : services et applications " textbox41="49" textbox46="4" textbox22="4" textbox52="13.50" textbox2="B+" />
+                        <Detail textbox38="PRO 8165" textbox40="   Projet d'ouverture et de découverte " textbox41="35" textbox46="1" textbox22="1" textbox52="Validé" textbox2="" />
+                        <Detail textbox38="XTR 8190" textbox40="   Formation en entreprise " textbox41="" textbox46="" textbox22="" textbox2="" />
+                        <Detail textbox38="FAE 8198" textbox40="   Rapport d'activités annuel  " textbox41="" textbox46="3" textbox22="3" textbox52="Validé" textbox2="" />
+                        <Detail textbox38="FAE 8199" textbox40="   Formation en entreprise " textbox41="1204" textbox46="17" textbox22="17" textbox52="Validé" textbox2="" />
+                    </Detail_Collection>
+                </table2>
+            </list1_Details_Group>
+            <list1_Details_Group X_Ecole="Télécom SudParis" textbox12="Evry, le 28/02/2019" X_AnnSco="2018/2019" textbox10="Monsieur BONHOMME Benjamin" niveau_LMD="Niveau européen " lib_classe="Formation Ingénieur par l'Apprentissage, spécialité réseaux 2ème année" X_CodeINE=" " textbox19=" " textbox9="XXX" textbox17=" " Textbox1="">
+                <table2 Textbox6="Relevé provisoire " textbox37="Heures" textbox18="Coeff" textbox51="Grade ECTS" textbox60="Note US" textbox21="15" textbox29="Moyenne de l'étudiant (/20) :" textbox33="13.90">
+                    <Detail_Collection>
+                        <Detail textbox38="MGT 8520" textbox40="   Développement de l'entreprise " textbox41="70" textbox46="" textbox22="" textbox52="16.17" textbox2="" />
+                        <Detail textbox38="MGT 8521" textbox40="   Manager le changement et le temps " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="16.00" textbox2="A+" />
+                        <Detail textbox38="MGT 8522" textbox40="   Risque et prévention dans l'entreprise " textbox41="21" textbox46="1" textbox22="1" textbox52="16.50" textbox2="A+" />
+                        <Detail textbox38="MGT 8523" textbox40="   Santé et sécurité au travail " textbox41="7" textbox46="0.5" textbox22="0.5" textbox52="20.00" textbox2="A+" />
+                        <Detail textbox38="MGT 8524" textbox40="   Communication et affaires " textbox41="14" textbox22="0.5" textbox2="" />
+                        <Detail textbox38="MGT 8526" textbox40="   Marketing et organisations commerciales " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="17.00" textbox2="A+" />
+                        <Detail textbox38="MGT 8527" textbox40="   Techniques financières et comptables " textbox41="28" textbox22="1.5" textbox2="" />
+                        <Detail textbox38="MGT 8529" textbox40="   Semaine Transversale " textbox41="35" textbox22="1" textbox2="" />
+                        <Detail textbox38="PRO 8525" textbox40="   Projet professionnel et portfolio " textbox41="14" textbox46="0.5" textbox22="0.5" textbox52="11.00" textbox2="C" />
+                        <Detail textbox38="PRO 8535" textbox40="   Challenge Projets d'Entreprendre " textbox41="35" textbox22="1" textbox2="" />
+                        <Detail textbox38="PHY 8540" textbox40="   Signal " textbox41="28" textbox46="" textbox22="" textbox52="13.00" textbox2="" />
+                        <Detail textbox38="PHY 8543" textbox40="   Systèmes hautes fréquences " textbox41="35" textbox22="2" textbox2="" />
+                        <Detail textbox38="PRO 8545" textbox40="   Travail personnel encadré et projet collectif " textbox41="28" textbox22="1" textbox2="" />
+                        <Detail textbox38="SIC 8541" textbox40="   Théorie du signal " textbox41="28" textbox46="2" textbox22="2" textbox52="13.00" textbox2="B+" />
+                        <Detail textbox38="SIC 8542" textbox40="   Théorie des communications " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8550" textbox40="   Accès, transport et administration " textbox41="28" textbox46="" textbox22="" textbox52="11.50" textbox2="" />
+                        <Detail textbox38="NET 8551" textbox40="   Réseaux cellulaires et évolutions  " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8552" textbox40="   Réseaux virtuels " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8553" textbox40="   Réseaux mobiles " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8554" textbox40="   Réseaux optiques " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8556" textbox40="   Sécurité des réseaux " textbox41="28" textbox46="2" textbox22="2" textbox52="11.50" textbox2="C" />
+                        <Detail textbox38="NET 8560" textbox40="   Services et architectures  " textbox41="28" textbox46="" textbox22="" textbox52="13.50" textbox2="" />
+                        <Detail textbox38="NET 8561" textbox40="   Administration des réseaux et services " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8562" textbox40="   IOT et Big Data " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8563" textbox40="   Files d'attente " textbox41="28" textbox46="2" textbox22="2" textbox52="13.50" textbox2="B+" />
+                        <Detail textbox38="NET 8564" textbox40="   Qualité de service " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="NET 8566" textbox40="   Contenus visuels en réseau " textbox41="28" textbox22="2" textbox2="" />
+                        <Detail textbox38="ENG 8510" textbox40="   Langues " textbox41="84" textbox46="" textbox22="" textbox52="14.00" textbox2="" />
+                        <Detail textbox38="ENG 8511" textbox40="   Anglais " textbox41="84" textbox46="6" textbox22="6" textbox52="14.00" textbox2="A-" />
+                        <Detail textbox38="FAE 8590" textbox40="   Formation en entreprise " textbox41="" textbox46="" textbox22="" textbox2="" />
+                        <Detail textbox38="FAE 8598" textbox40="   Rapport annuel d'activités " textbox41="1106" textbox22="3" textbox2="" />
+                        <Detail textbox38="FAE 8599" textbox40="   Mission en Entreprise " textbox41="1106" textbox22="17" textbox2="" />
+                    </Detail_Collection>
+                </table2>
+            </list1_Details_Group>
+        </list1_Details_Group_Collection>
+    </list1>
+</Report>
