@@ -3,7 +3,7 @@
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$url = 'https://sifi-report.imtbs-tsp.eu/ReportServer/?%2fSIFI_PROD%2fRapports_ecole%2fcommun%2fBDNcursus&rs:Command=Render&rc:Toolbar=false&rs:Format=XML&rs:ClearSession=true&intidchoix=2&griser=0&Impression_coeff=OUI&Impression_heure=OUI&Impression_note_US=OUI&Impression_Grade_ECTS=OUI&social=NON&intIdUser=0';
+$url = 'https://sifi-report.imtbs-tsp.eu/ReportServer/?%2fSIFI_PROD%2fRapports_ecole%2fcommun%2fBDNcursus&rs:Command=Render&rc:Toolbar=false&rs:Format=XML&rs:ClearSession=true&intidchoix=2&griser=0&Impression_coeff=OUI&Impression_heure=OUI&Impression_note_US=OUI&Impression_Grade_ECTS=OUI&Impression_rang=OUI&social=NON&intIdUser=0';
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
