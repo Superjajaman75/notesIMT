@@ -114,7 +114,6 @@ $password = $_SESSION['password'];
 	<script>
 		jQuery.noConflict();
 		(function($) {
-
 			function writeJson(json) {
 				$('#container').empty();
 				
@@ -150,7 +149,7 @@ $password = $_SESSION['password'];
 					let moy_pond = parseFloat(moyenne)*5;
 					let rang = notes[i]["@attributes"].textbox19;
 					
-					html += '<div class="col-lg-2 "><p>Moyenne de l\'&eacute;tudiant : </p></div><div class="col-lg-8"><div class="progress mb-3"><div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: '+moy_pond+'%" aria-valuenow="'+moy_pond+'" aria-valuemin="0" aria-valuemax="20">'+moyenne+'</div></div></div><div class="col-lg-2 "><p>'+rang+'</p></div>';
+					html += '<div class="col-lg-2 "><p>Moyenne de l\'&eacute;tudiant : </p></div><div class="col-lg-8"><div class="progress mb-3"><div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: '+moy_pond+'%" aria-valuenow="'+moy_pond+'" aria-valuemin="0" aria-valuemax="20">'+moyenne+'</div></div></div><div class="col-lg-2 float-right"><button name="'+rang+'" id="rang" type="button" class="btn btn-primary">Voir Rang</button> &nbsp; <button id="pdf" type="button" class="btn btn-success">PDF</button></div>';
 					
 					html += '<table class="table"><thead class="thead-dark"><tr><th class="rowHide">Module</th> <th>Nom</th> <th class="rowHide">Heure</th> <th class="rowHide">ECTS</th> <th class="rowHide">Coef</th> <th>Note</th> <th class="rowHide">Note US</th>  </tr> </thead> <tbody>';
 					
@@ -184,8 +183,19 @@ $password = $_SESSION['password'];
 				url: "sifiQuery.php",
 				success: function(json) {
 					writeJson(json);
-					//console.log(JSON.parse(json));
 				}
+			});
+			
+			$("#container").on('click', '.btn-success', function(){ 
+				window.open("https://sifi-report.imtbs-tsp.eu/ReportServer/?%2fSIFI_PROD%2fRapports_ecole%2fcommun%2fBDNcursus&rs:Command=Render&rc:Toolbar=false&rs:Format=PDF&rs:ClearSession=true&intidchoix=2&griser=0&Impression_coeff=OUI&Impression_heure=OUI&Impression_note_US=OUI&Impression_Grade_ECTS=OUI&Impression_rang=OUI&social=NON&intIdUser=0"); 
+			});
+			$("#container").on('click', '.btn-primary', function(){
+				if (this.innerText == 'Voir Rang') {
+					this.innerText = this.name;
+				} else {
+					this.innerText = 'Voir Rang';
+				}
+				//console.log('rang')
 			});
 		})(jQuery);
 		
